@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import robo_dog from "../components/assets/robo_dog.png";
 import HomePageAbout from "./About";
 import Tokenomics from "./Tokenomics";
+import SocialMediaSection from "./SocialMediaSection";
 const HomePage = () => {
   return (
     <HomePageWrapper>
@@ -16,6 +17,7 @@ const HomePage = () => {
       </HomeSection>
       <HomePageAbout />
       <Tokenomics />
+      <SocialMediaSection />
     </HomePageWrapper>
   );
 };

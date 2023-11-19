@@ -41,6 +41,9 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-evenly;
   background-color: #fff;
+  @media (max-width: 1000px) {
+    height: 850px;
+  }
 `;
 const Title = styled.div`
   width: 100%;
