@@ -52,36 +52,7 @@ const SectionWrapper = styled.div`
     flex-direction: column;
   }
 `;
-// const Title = styled.div`
-//   width: 100%;
-//   height: 20%;
-//   font-family: "Inter";
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 137px;
-//   line-height: 71px;
-//   margin-top: 20%;
-//   text-align: center;
-//   color: #2a2626;
-//   @media (max-width: 1000px) {
-//     font-size: 80px;
-//   }
-//   @media (max-width: 500px) {
-//     font-size: 50px;
-//   }
-// `;
 
-const InnerWrapper = styled.div`
-  display: flex;
-  width: 60%;
-  height: 100%;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  @media (max-width: 1000px) {
-    width: 100%;
-  }
-`;
 const Section = styled.div`
   width: 30%;
   height: 130px;
@@ -95,20 +66,6 @@ const Section = styled.div`
   margin: 10px;
 `;
 
-// const FirstSection = styled.div`
-//   vertical-align: middle;
-//   display: inline-block;
-//   height: 100%;
-//   width: 100%;
-//   border: none;
-//   border-radius: 0;
-//   box-shadow: none;
-//   background: transparent url(${(props) => props.background}) top center
-//     no-repeat;
-//   background-size: contain;
-//   margin: 15px;
-
-// `;
 const SectionTitle = styled.div`
   width: 100%;
   height: 18%;

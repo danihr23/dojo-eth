@@ -65,14 +65,3 @@ const Text = styled.div`
   text-align: center;
   color: #fff;
 `;
-const Button = styled.div`
-  width: 170px;
-  height: 58px;
-  background: #fff;
-  border-radius: 10px;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-`;

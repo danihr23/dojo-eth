@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
-import twitterIcon from "../components/assets/twitterIcon.png";
+
 const Tokenomics = () => {
   return (
     <Wrapper>
@@ -100,21 +100,4 @@ const SectionText = styled.div`
   line-height: 17px;
   text-align: center;
   color: #fff;
-`;
-const SectionLogo = styled.div`
-  display: flex;
-  width: 100%;
-  height: 130px;
-  justify-content: center;
-  align-items: center;
-  @media (max-width: 1000px) {
-    flex-wrap: wrap;
-  }
-`;
-const Logo = styled.div`
-  width: 30%;
-  height: 28px;
-  background: transparent url(${(props) => props.background}) top center
-    no-repeat;
-  background-size: contain;
 `;
