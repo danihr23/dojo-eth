@@ -7,17 +7,12 @@ const HomePageAbout = () => {
       <ContentWrapper>
         <Title>ABOUT</Title>
         <Text>
-          GrokSquid is a cryptocurrency powered by artificial intelligence. It
-          is bringingn the bulishness of GROK with the potential of SQUID!
-          Conquering the moon with the power of GrokSquid Inspired by Elon Musk
-          and running latest AI! Thanks to AI, GROKSQUID can connect people from
-          even the furthest points of the world and take them to the MOON! Buy
-          presale button contract address: GrokSquid is about the strength of
-          community. Join us as we create a decentralized ecosystem that
-          empowers every holder. Elon Musk's AI startup xAI, has been developing
-          an inovative AI tool, attempting to be a better and more witty
-          ChatGPT, called Grok. With the help of GrokSquid, you could have a
-          strong advantage in the upcoming huge Squid Games.
+          SQUID GAME : The Challenge is airing on Netflix on 22 November 2023.
+          The series will be released across three weeks with three episode
+          drops of varying sizes. 456 real players compete against each other
+          like in Netflix’s Korean drama series that dominated the charts back
+          in 2021. The Prize is $4.56 million, the largest prize pot in game
+          show history. Second season is scheduled for next year.
         </Text>
       </ContentWrapper>
     </Wrapper>

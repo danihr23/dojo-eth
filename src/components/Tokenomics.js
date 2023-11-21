@@ -7,16 +7,16 @@ const Tokenomics = () => {
       <Title>Tokenomics</Title>
       <SectionWrapper>
         <Section>
-          <SectionTitle>Name: GrokSquid</SectionTitle>
-          <SectionText>Symbol: GRSQ</SectionText>
+          <SectionTitle>Name: SQUID456</SectionTitle>
+          <SectionText>Ticker: SQUID456</SectionText>
         </Section>
         <Section>
           <SectionTitle>Total Supply 42069420699</SectionTitle>
-          <SectionText>Tax: 1/1</SectionText>
+          <SectionText>🔥 50% BURNED 🔥</SectionText>
         </Section>
         <Section>
-          <SectionTitle>Liquidity 70%</SectionTitle>
-          <SectionText>Liquidity Locked</SectionText>
+          <SectionTitle> Liquidity Locked </SectionTitle>
+          <SectionText>Tax: 1/1</SectionText>
         </Section>
       </SectionWrapper>
     </Wrapper>

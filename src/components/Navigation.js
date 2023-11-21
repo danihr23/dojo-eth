@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
-import robo_logo from "../components/assets/robo_logo.png";
+import navLogo from "../components/assets/navLogo.png";
 import telegram from "../components/assets/telegram.png";
 import twitter from "../components/assets/twitter.png";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const Navigation = () => {
         />
         <MediaIcon
           background={twitter}
-          to={"https://twitter.com/GROKSQUID69"}
+          to={"https://twitter.com/Squid456456"}
           width={60}
           height={60}
         />
@@ -49,7 +49,7 @@ const Logo = styled(Link)`
   width: 63px;
   margin-left: 25px;
   z-index: 2;
-  background: transparent url(${robo_logo}) top center no-repeat;
+  background: transparent url(${navLogo}) top center no-repeat;
   background-size: contain;
 `;
 const Menu = styled.div`

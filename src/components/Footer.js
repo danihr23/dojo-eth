@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <Wrapper>
       <ContentWrapper>
-        <Title>JOIN THE GROKSQUID REVOLUTION!</Title>
-        <Text>Email: Groksquid@gmail.com</Text>
+        <Title>JOIN THE SQUID456 REVOLUTION!</Title>
+        <Text>Email: squid456@skiff.com</Text>
         <Menu>
           <MediaIcon
             background={telegram}
@@ -18,7 +18,7 @@ const Footer = () => {
           />
           <MediaIcon
             background={twitter}
-            to={"https://twitter.com/GROKSQUID69"}
+            to={"https://twitter.com/Squid456456"}
             width={60}
             height={60}
           />

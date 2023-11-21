@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
 import Navigation from "./Navigation";
-import robo_logo from "../components/assets/robo_logo.png";
+import logoNew from "../components/assets/logoNew.png";
 import HomePageAbout from "./About";
 import Tokenomics from "./Tokenomics";
 import SocialMediaSection from "./SocialMediaSection";
@@ -12,9 +12,10 @@ const HomePage = () => {
       <HomeSection>
         <Navigation />
         <Logo />
-        <Title> GROKSQUID</Title>
+        <Title>SQUID456</Title>
         <Text>
-          GROKSQUID is a cryptocurrency powered by artificial intelligence.
+          And remember, chances like this don't come twice! This is your moment
+          – will you take it?
         </Text>
       </HomeSection>
       <HomePageAbout />
@@ -38,15 +39,15 @@ const HomeSection = styled.div`
   align-items: center;
   align-content: center;
   width: 100%;
-  height: 720px;
+  height: 1120px;
 `;
 const Logo = styled.div`
-  height: 43%;
-  width: 300px;
-  border-radius: 360px 360px 360px 360px;
+  height: 65%;
+  width: 100%;
+  //border-radius: 360px 360px 360px 360px;
   margin: 50px auto 0 auto;
-  background: transparent url(${robo_logo}) top center no-repeat;
-  background-size: contain;
+  background: transparent url(${logoNew}) top center no-repeat;
+  background-size: 100% 100%;
 `;
 const Title = styled.span`
   width: 100%;

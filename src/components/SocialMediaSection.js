@@ -8,16 +8,16 @@ const SocialMediaSection = () => {
       <SectionWrapper>
         <Section>
           <SectionTitle>Step1</SectionTitle>
-          <SectionText>Buy GrokSquid</SectionText>
+          <SectionText>Buy SQUID456</SectionText>
         </Section>
 
         <Section>
           <SectionTitle>Step2</SectionTitle>
-          <SectionText>HODL</SectionText>
+          <SectionText>HODL & VIBE</SectionText>
         </Section>
         <Section>
           <SectionTitle>Step3</SectionTitle>
-          <SectionText>MOON!</SectionText>
+          <SectionText>MEME TAKEOVER</SectionText>
         </Section>
       </SectionWrapper>
     </Wrapper>
