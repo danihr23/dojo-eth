@@ -1,23 +1,26 @@
 import React from "react";
 import styled from "styled-components/macro";
 import Navigation from "./Navigation";
-import robo_dog from "../components/assets/robo_dog.png";
+import robo_logo from "../components/assets/robo_logo.png";
 import HomePageAbout from "./About";
 import Tokenomics from "./Tokenomics";
 import SocialMediaSection from "./SocialMediaSection";
+import Footer from "./Footer";
 const HomePage = () => {
   return (
     <HomePageWrapper>
       <HomeSection>
         <Navigation />
         <Logo />
-        <Title>DOJO</Title>
-        <Text>Dani Hristov Tesla owner</Text>
-        <Button>Button</Button>
+        <Title> GROKSQUID</Title>
+        <Text>
+          GROKSQUID is a cryptocurrency powered by artificial intelligence.
+        </Text>
       </HomeSection>
       <HomePageAbout />
       <Tokenomics />
       <SocialMediaSection />
+      <Footer />
     </HomePageWrapper>
   );
 };
@@ -29,7 +32,7 @@ const HomePageWrapper = styled.div`
   background-color: black;
 `;
 const HomeSection = styled.div`
-  background-color: #141432;
+  background-color: #142532;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,10 +41,11 @@ const HomeSection = styled.div`
   height: 720px;
 `;
 const Logo = styled.div`
-  height: 45%;
-  width: 100%;
+  height: 43%;
+  width: 300px;
+  border-radius: 360px 360px 360px 360px;
   margin: 50px auto 0 auto;
-  background: transparent url(${robo_dog}) top center no-repeat;
+  background: transparent url(${robo_logo}) top center no-repeat;
   background-size: contain;
 `;
 const Title = styled.span`

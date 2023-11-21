@@ -1,22 +1,30 @@
 import React from "react";
 import styled from "styled-components/macro";
-import logo from "../components/assets/logo.png";
-import mediaIcon from "../components/assets/mediaIcon.png";
-import twitterIcon from "../components/assets/twitterIcon.png";
-//mport { Link } from "react-router-dom";
+import robo_logo from "../components/assets/robo_logo.png";
+import telegram from "../components/assets/telegram.png";
+import twitter from "../components/assets/twitter.png";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <Wrapper>
-      <Logo />
+      <Logo to={"/"} />
       <TextWrapper>
-        <NavTool>
-          Roadmapdslhsahdsajhdkahdkahdkahdkjahdksahdkjahdkajhdkashdkjdhakdhsakhdkjashdkjashdkashk
-        </NavTool>
+        <NavTool>232132132131123213123213213123312r4343</NavTool>
       </TextWrapper>
       <Menu>
-        <MediaIcon background={mediaIcon} />
-        <MediaIcon background={twitterIcon} />
+        <MediaIcon
+          background={telegram}
+          to={"https://t.co/qLWuIl82VF"}
+          width={37}
+          height={37}
+        />
+        <MediaIcon
+          background={twitter}
+          to={"https://twitter.com/GROKSQUID69"}
+          width={60}
+          height={60}
+        />
       </Menu>
     </Wrapper>
   );
@@ -35,25 +43,14 @@ const Wrapper = styled.div`
   height: 120px;
 `;
 
-const Logo = styled.div`
-  height: 27px;
+const Logo = styled(Link)`
+  height: 50%;
+  border-radius: 360px 360px 360px 360px;
+  width: 63px;
+  margin-left: 25px;
   z-index: 2;
-  background: transparent url(${logo}) top center no-repeat;
+  background: transparent url(${robo_logo}) top center no-repeat;
   background-size: contain;
-  width: 25%;
-  /* @media (x-width: 1100px) {
-    height: 20px;
-  }
-
-  @media (max-width: 640px) {
-    height: 16px;
-  }
-
-  @media (max-width: 440px) {
-    height: 12px;
-    left: 9px;
-    top: 4px;
-  } */
 `;
 const Menu = styled.div`
   width: 25%;
@@ -62,17 +59,6 @@ const Menu = styled.div`
   align-items: center;
   justify-content: space-around;
   z-index: 2;
-  /* @media (max-width: 1100px) {
-    width: 53%;
-  }
-
-  @media (max-width: 640px) {
-    width: 62%;
-  }
-
-  @media (max-width: 440px) {
-    width: 72%;
-  } */
 `;
 const NavTool = styled.div`
   font-family: "Inter", sans-serif;
@@ -81,26 +67,7 @@ const NavTool = styled.div`
   word-wrap: break-word;
   margin: 0 auto;
   font-size: 20px;
-  /* @media (max-width: 1100px) {
-    height: 14px;
-
-    font-size: 10px;
-    line-height: 13px;
-  }
-
-  @media (max-width: 640px) {
-    height: 12px;
-
-    font-size: 8px;
-    line-height: 15px;
-  }
-
-  @media (max-width: 440px) {
-    height: 10px;
-
-    font-size: 6px;
-    line-height: 12px;
-  } */
+  text-align: center;
 `;
 const TextWrapper = styled.div`
   width: 50%;
@@ -111,24 +78,10 @@ const TextWrapper = styled.div`
   height: 100%;
 `;
 
-const MediaIcon = styled.div`
-  width: 24px;
-  height: 19px;
+const MediaIcon = styled(Link)`
+  width: ${(props) => props.width && props.width}px;
+  height: ${(props) => props.height && props.height}px;
   background: transparent url(${(props) => props.background}) top center
     no-repeat;
   background-size: contain;
-  /* @media (max-width: 1100px) {
-    width: 20px;
-    height: 15px;
-  }
-
-  @media (max-width: 640px) {
-    width: 18px;
-    height: 13px;
-  }
-
-  @media (max-width: 440px) {
-    width: 16px;
-    height: 11px;
-  } */
 `;

@@ -7,25 +7,18 @@ const Tokenomics = () => {
       <Title>Tokenomics</Title>
       <SectionWrapper>
         <Section>
-          <SectionTitle>DSDHSJHD</SectionTitle>
-          <SectionText>dagdsaa</SectionText>
+          <SectionTitle>Name: GrokSquid</SectionTitle>
+          <SectionText>Symbol: GRSQ</SectionText>
         </Section>
         <Section>
-          <SectionTitle>DSDHSJHD</SectionTitle>
-          <SectionText>dagdsaa</SectionText>
+          <SectionTitle>Total Supply 42069420699</SectionTitle>
+          <SectionText>Tax: 1/1</SectionText>
         </Section>
         <Section>
-          <SectionTitle>DSDHSJHD</SectionTitle>
-          <SectionText>dagdsaa</SectionText>
+          <SectionTitle>Liquidity 70%</SectionTitle>
+          <SectionText>Liquidity Locked</SectionText>
         </Section>
       </SectionWrapper>
-      <SectionLogo>
-        <Logo background={twitterIcon} />
-        <Logo background={twitterIcon} />
-        <Logo background={twitterIcon} />
-        <Logo background={twitterIcon} />
-        <Logo background={twitterIcon} />
-      </SectionLogo>
     </Wrapper>
   );
 };
@@ -34,7 +27,7 @@ export default Tokenomics;
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 600px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -42,7 +35,7 @@ const Wrapper = styled.div`
   justify-content: space-evenly;
   background-color: #fff;
   @media (max-width: 1000px) {
-    height: 850px;
+    height: 600px;
   }
 `;
 const Title = styled.div`
@@ -53,7 +46,7 @@ const Title = styled.div`
   font-weight: 700;
   font-size: 137px;
   line-height: 71px;
-  margin-top: 20%;
+  margin-top: 5%;
   text-align: center;
   color: #2a2626;
   @media (max-width: 1000px) {
