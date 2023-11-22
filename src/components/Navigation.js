@@ -10,7 +10,7 @@ const Navigation = () => {
     <Wrapper>
       <Logo to={"/"} />
       <TextWrapper>
-        <NavTool>232132132131123213123213213123312r4343</NavTool>
+        <NavTool>0xfe655a67B7Ca7b6A0B7179E5B228b602A7e3e39b</NavTool>
       </TextWrapper>
       <Menu>
         <MediaIcon

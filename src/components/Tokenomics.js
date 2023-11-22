@@ -11,8 +11,7 @@ const Tokenomics = () => {
           <SectionText>Ticker: SQUID456</SectionText>
         </Section>
         <Section>
-          <SectionTitle>Total Supply 42069420699</SectionTitle>
-          <SectionText>🔥 50% BURNED 🔥</SectionText>
+          <SectionTitle>Total Supply 100 000 000 000 000</SectionTitle>
         </Section>
         <Section>
           <SectionTitle> Liquidity Locked </SectionTitle>
