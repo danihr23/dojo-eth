@@ -87,6 +87,6 @@ const Text = styled.div`
     font-size: 28px;
   }
   @media (max-width: 700px) {
-    font-size: 18px;
+    font-size: 17px;
   }
 `;
