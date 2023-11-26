@@ -7,17 +7,27 @@ const SocialMediaSection = () => {
       <Title>RoadMap</Title>
       <SectionWrapper>
         <Section>
-          <SectionTitle>Step1</SectionTitle>
-          <SectionText>Buy SQUID456</SectionText>
+          <SectionTitle>Phase 1:</SectionTitle>
+          <SectionText>Concept creation</SectionText>
+          <SectionText>Draft a plan</SectionText>
+          <SectionText>Token creation</SectionText>
+          <SectionText>X and Telegram community </SectionText>
+          <SectionText>development</SectionText>
+          <SectionText>KYC and Audit</SectionText>
+          <SectionText>KPresale on Pinksale</SectionText>
         </Section>
 
         <Section>
-          <SectionTitle>Step2</SectionTitle>
-          <SectionText>HODL & VIBE</SectionText>
+          <SectionTitle>Phase 2:</SectionTitle>
+          <SectionText>Marketing campaign </SectionText>
+          <SectionText>CoinMarketCap listing </SectionText>
+          <SectionText>CoinGeko listing</SectionText>
         </Section>
         <Section>
-          <SectionTitle>Step3</SectionTitle>
-          <SectionText>MEME TAKEOVER</SectionText>
+          <SectionTitle>Phase 3:</SectionTitle>
+          <SectionText>Attracting 5000 holders </SectionText>
+          <SectionText>Partners announcement </SectionText>
+          <SectionText>Listing on more CEXs</SectionText>
         </Section>
       </SectionWrapper>
     </Wrapper>
@@ -36,7 +46,7 @@ const Wrapper = styled.div`
   justify-content: space-evenly;
   background-color: black;
   @media (max-width: 1000px) {
-    height: 600px;
+    height: 770px;
   }
 `;
 
@@ -54,8 +64,8 @@ const SectionWrapper = styled.div`
 `;
 
 const Section = styled.div`
-  width: 30%;
-  height: 130px;
+  width: 32%;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;

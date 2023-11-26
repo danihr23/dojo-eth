@@ -11,11 +11,12 @@ const Tokenomics = () => {
           <SectionText>Ticker: SQUID456</SectionText>
         </Section>
         <Section>
-          <SectionTitle>Total Supply 100 000 000 000 000</SectionTitle>
+          <SectionTitle>Liquidity Locked</SectionTitle>
+          <SectionText>Tax: 1/1</SectionText>
         </Section>
         <Section>
-          <SectionTitle> Liquidity Locked </SectionTitle>
-          <SectionText>Tax: 1/1</SectionText>
+          <SectionTitle> 65% Presale tokens </SectionTitle>
+          <SectionText>35% Liquidity tokens</SectionText>
         </Section>
       </SectionWrapper>
     </Wrapper>

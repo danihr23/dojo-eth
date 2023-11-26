@@ -9,6 +9,7 @@ const Navigation = () => {
   return (
     <Wrapper>
       <Logo to={"/"} />
+
       <TextWrapper>
         <NavTool>0xfe655a67B7Ca7b6A0B7179E5B228b602A7e3e39b</NavTool>
       </TextWrapper>
@@ -19,6 +20,7 @@ const Navigation = () => {
           width={37}
           height={37}
         />
+
         <MediaIcon
           background={twitter}
           to={"https://twitter.com/Squid456456"}
@@ -26,6 +28,9 @@ const Navigation = () => {
           height={60}
         />
       </Menu>
+      <Button to={"https://my.visme.co/view/y4381dwz-squid456#s1"}>
+        White Paper
+      </Button>
     </Wrapper>
   );
 };
@@ -84,4 +89,21 @@ const MediaIcon = styled(Link)`
   background: transparent url(${(props) => props.background}) top center
     no-repeat;
   background-size: contain;
+`;
+const Button = styled(Link)`
+  width: 77px;
+  height: 40px;
+  background: #00a1f6;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  line-height: 37px;
+  color: black;
+  margin-right: 5px;
+  font-weight: 600;
+
+  @media (max-width: 650px) {
+    line-height: 17px;
+  }
 `;
