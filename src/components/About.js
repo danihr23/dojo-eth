@@ -21,7 +21,7 @@ const HomePageAbout = () => {
           <SectionWrapper>
             <Partners
               background={pinkmood}
-              to={"https://docs.pinksale.finance/"}
+              to={"https://www.pinksale.finance"}
               width={75}
               height={75}
             />

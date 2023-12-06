@@ -38,7 +38,7 @@ export default SocialMediaSection;
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -46,7 +46,7 @@ const Wrapper = styled.div`
   justify-content: space-evenly;
   background-color: black;
   @media (max-width: 1000px) {
-    height: 770px;
+    height: 1150px;
   }
 `;
 
@@ -74,6 +74,14 @@ const Section = styled.div`
   border-radius: 360px 360px 360px 360px;
   background-color: #a2bfcd;
   margin: 10px;
+  @media (max-width: 1000px) {
+    width: 55%;
+    height: 330px;
+  }
+  @media (max-width: 1000px) {
+    width: 90%;
+    height: 330px;
+  }
 `;
 
 const SectionTitle = styled.div`
